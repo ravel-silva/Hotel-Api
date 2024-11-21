@@ -1,0 +1,72 @@
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Build e binários
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.csproj.user
+
+# Configurações do Visual Studio
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Diretórios de publicação
+publish/
+out/
+
+# Logs
+*.log
+*.tlog
+*.vscode-crash
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.pid
+*.swp
+*.bak
+*.orig
+
+# Arquivos de configuração sensíveis
+appsettings.json
+appsettings.Development.json
+secrets.json
+
+# Dependências geradas automaticamente
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# Diretório de pacotes
+packages/
+*.nuspec
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+# Arquivos de cobertura de teste
+*.coverage
+*.coveragexml
+*.codecov
+
+# Arquivos de deploy e IDEs
+*.deploy
+*.publish.xml
+
+# Arquivos do Rider/Resharper
+.idea/
+*.DotSettings.user
+
+# Arquivos do sistema operacional e IDEs antigos
+*.db
+*.ldb
