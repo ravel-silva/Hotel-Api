@@ -13,6 +13,7 @@ obj/
 *.csproj.user
 
 # Configurações do Visual Studio
+.vs
 .vscode/
 .idea/
 *.suo
